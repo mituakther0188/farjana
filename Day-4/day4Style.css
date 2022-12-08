@@ -1,0 +1,105 @@
+
+.header{
+width: 1200px;
+margin: 0 auto;
+height: 100px;
+background: aqua;
+}
+
+.logo{
+    padding: 20px;
+    float: left;
+}
+.logo img{
+    width: 60%;
+    height: 60%;
+}
+.menu{
+    float: right;
+    padding-top: 15px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.menu ul li a:hover{
+    background: green;
+    padding: 10px;
+    color: white;
+}
+/* Header Part End */
+/* Slider Part Start */
+.slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(240, 146, 146, 0.8),rgba(0,0,0,.6)), url(./images/undraw_Educator_re_ju47.png);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: center;
+}
+.slider h1{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    color: white;
+    font-size: 60px;
+}
+.slider p{
+    position: absolute;
+    top: 68%;
+    left: 44%;
+    color: white;
+    text-align: center;
+}
+.slider a{
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    text-decoration: none;
+    border:1px solid whitesmoke;
+    padding: 10px 20px;
+    color:red;
+    font-size: 18px;
+    background: yellow;
+    border-radius: 20px;
+}
+
+/* Slider Part End */
+/* Hero Part Start */
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+}
+.service-title{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.service-box{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+    gap: 5px;
+}
+span{
+    color: tomato;
+}
+.card{
+text-align: center;
+padding: 20px;
+background: rgb(112, 244, 114);
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+}
+/* Hero Part End */
