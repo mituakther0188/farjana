@@ -1,0 +1,44 @@
+/* Responsive part start */
+@media screen and (max-width:600px){
+    .header{
+        width: 100%;
+        background: yellow;
+        height: 60px;
+        }
+        
+        .logo{
+            display: none;
+        }
+       
+        .menu{
+            padding-top: 1px;
+        }
+        
+        .menu ul li a{
+            font-size: 20px;
+            padding-right: 10px;
+        }
+        .menu ul li a:hover{
+            padding: 5px;
+        }
+        /* Header Part End */  
+        /* Slider Part Start */
+.slider{
+    width: 100%; 
+}
+.slider h1{
+    top: 40%;
+    color: rgb(251, 36, 36);
+    font-size: 40px;
+}
+.slider p{
+    top: 53%;
+}
+.slider a{
+    top: 68%;
+    border-radius: 10px;
+}
+
+/* Slider Part End */
+}
+/* Responsive part end */
